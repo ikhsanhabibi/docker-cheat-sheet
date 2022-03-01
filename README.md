@@ -21,6 +21,16 @@ docker pull ubuntu
 docker rmi [image name]
 ```
 
+# rename docker images
+```
+docker tag image-ID [new-name]
+```
+
+# remove tag in docker images
+```
+docker rmi REPOSITORY:TAG
+```
+
 # list all existing container
 ```
 docker ps -a
@@ -54,4 +64,9 @@ docker stop 67a5052f3154
 # remove container
 ```
 docker rm [container ID]
+```
+
+# Build an image from the Dockerfile
+```
+docker build -t [docker image] .
 ```
