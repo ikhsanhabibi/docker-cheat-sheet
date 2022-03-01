@@ -21,7 +21,12 @@ docker pull ubuntu
 docker rmi [image name]
 ```
 
-# list container
+# list all existing container
+```
+docker ps -a
+```
+
+# list running container
 ```
 docker ps
 ```
