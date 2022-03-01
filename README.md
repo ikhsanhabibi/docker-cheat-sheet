@@ -70,3 +70,8 @@ docker rm [container ID]
 ```
 docker build -t [docker image] .
 ```
+
+# update docke images
+```
+ docker build -t REPO:TAG .
+```
