@@ -86,9 +86,9 @@ docker build -t [docker image] .
  docker build -t REPO:TAG .
 ```
 ------------------------------------------------------
-### How to Run PostgreSQL and pgAdmin Using Docker
+# How to Run PostgreSQL and pgAdmin Using Docker
 
-# create docker-compose.yml file in the directory
+### create docker-compose.yml file in the directory
 - db port meaning: the ports tag is used to define both host and container ports. It maps port 5432 on the host to port 5432 on the container.
 ```
 version: '3.8'
@@ -120,25 +120,25 @@ services:
       - 8080:8080
 ```
 
-# starts and runs the entire app
+### starts and runs the entire app
 ```
 docker compose up -d
 ```
 
-# grab the PostgreSQL container id
+### grab the PostgreSQL container id
 ```
 docker ps -a
 ```
 ![image](https://user-images.githubusercontent.com/33756873/168673182-02505214-c51c-4a3a-a243-82116a689552.png)
 
-# extract IPAddress on the running container
+### extract IPAddress on the running container
 ```
 docker inspect fcc97e066cc8 | grep IPAddress
 ```
 ![image](https://user-images.githubusercontent.com/33756873/168674237-dbe014a3-e191-4483-b449-73562f4dfd53.png)
 
 
-# open PgAdmin
+### open PgAdmin
 - access the pgadmin4 via your favorite web browser by vising the URL http://localhost:5050/. Use the admin@admin.com for the email address and root as the password to log in.
 
 ![image](https://user-images.githubusercontent.com/33756873/168674105-ce995386-9170-42b9-882f-2ddaf0083906.png)
