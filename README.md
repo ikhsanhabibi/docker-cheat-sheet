@@ -145,9 +145,13 @@ docker inspect fcc97e066cc8 | grep IPAddress
 
 
 - Click Servers > Create > Server to create a new server.
+
 ![image](https://user-images.githubusercontent.com/33756873/168674144-c70e559b-ec7f-4d8d-b27d-cddac3ff0c5f.png)
 
+
+
 - better write the host with the container name
+
 ![image](https://user-images.githubusercontent.com/33756873/168674708-e363cc6b-6130-4734-b86b-959857f52543.png)
 
 
