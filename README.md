@@ -87,6 +87,7 @@ docker build -t [docker image] .
 ```
 ------------------------------------------------------
 # How to Run PostgreSQL and pgAdmin Using Docker
+- Source: https://towardsdatascience.com/how-to-run-postgresql-and-pgadmin-using-docker-3a6a8ae918b5
 
 ### create docker-compose.yml file in the directory
 - db port meaning: the ports tag is used to define both host and container ports. It maps port 5432 on the host to port 5432 on the container.
