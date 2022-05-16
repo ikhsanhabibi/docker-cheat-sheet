@@ -156,3 +156,5 @@ docker inspect fcc97e066cc8 | grep IPAddress
 ![image](https://user-images.githubusercontent.com/33756873/168674708-e363cc6b-6130-4734-b86b-959857f52543.png)
 
 
+# set env variable on linux
+- https://www.geeksforgeeks.org/environment-variables-in-linux-unix/
