@@ -158,3 +158,4 @@ docker inspect fcc97e066cc8 | grep IPAddress
 
 # set env variable on linux
 - https://www.geeksforgeeks.org/environment-variables-in-linux-unix/
+- https://phoenixnap.com/kb/linux-set-environment-variable
